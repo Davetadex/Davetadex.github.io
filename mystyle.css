@@ -1,0 +1,35 @@
+.nav_div{
+    background-color:#00ffa2;
+    padding: 1em;
+    border-radius: 0.5em;
+    color: darkblue;
+}
+
+.nav_a{
+    padding-right: 1.5em;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+
+.body{
+    max-width: 80w;
+    margin: auto;
+    padding: 2.5em;
+}
+
+.nav_pad{
+    padding-left: 1em;
+}
+
+#h1_pad{
+    padding-left: 0.5em;
+}
+
+.table, th, td{
+    border: 1px solid;
+}
+
+
+
+
