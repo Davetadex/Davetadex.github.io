@@ -1,53 +1,96 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 
 <html>
-    <!-- head starts here, additional comment-->
+    <!--header starts here -->   
     <head>
         <link rel="stylesheet" href="CSS/mystyle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-widht,initial-scale=1">
+
         <title>
-            David's website
+            David Oretade
         </title>
     </head>
-    <body>
-        <div class="nav_div">
+    
+    <body class=".body">
 
-            <h1 id="h1_pad">DAVID</h1>
+        <div class="nav_div">
             <nav class="nav_pad">
-                 <a href="home.html"class="nav_a">Home</a> 
-                 <a href="family.html"class="nav_a">Family</a>
-                 <a href="friends.html"class="nav_a">Friends</a>
-                 <a href="games.html"class="nav_a">Games</a>   
+                 <a href="index.html"class="nav_a">Home</a> 
+                 <a href="about me2.html"class="nav_a">About me</a>
+                 <a href="my_project.html"class="nav_a">My Projects</a>
+                 <a href="my_games.html"class="nav_a">Video Games</a>
+                 <a href="contact_me.html"class="nav_a">Contact me</a>
            </nav>
 
         </div>
 
-        <div>
-            <marquee diection="left">
-         <h1>Welcome to David's website</h1>
-        </marquee>
+        <!-- Top Navigation Menu -->
+         <div class="topnav">
+            
+            <!-- Navigation links (hidden by default) -->
+             <div id="myLinks">
+                 <a href="index.html"class="nav_a">Home</a> 
+                 <a href="about me2.html"class="nav_a">About me</a>
+                 <a href="my_project.html"class="nav_a">My Projects</a>
+                 <a href="my_games.html"class="nav_a">Video Games</a>
+                 <a href="contact_me.html"class="nav_a">Contact me</a>
+             </div>
+             <!-- "Hamburger menu"/"Bar icon" to toggle the navigation links -->
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+              </a>
+         </div>
 
-        <img src="1004631962.jpg" alt="my image" height="200px" width="200px"/>  
-        </div>
-        
-        <div style="color: darkcyan;"
-         <h2>My nickname</h2>
-        <p> is Dave</p>   
-        </div>
-        
-        <div style="color: darkcyan;"
-            <h2>Home</h2>
-            <p>We live in Canada</p>
-        </div>
-        
-        <div style="color: darkcyan;"
-            <h2>Our Faith</h2>
-        <p>We are christians</p>
-        </div> 
 
-        <div style="color: darkcyan;"
-            <h2>What I love about my most about my family</h2>
-        <p>is we are together</p>
+
+             <div>
+                <h1 class="h1_welcome">
+                    <marqee diection="left">
+                      Hi! I'm <span id="my_name">Dave</span>  
+                    </marqee>
+                </h1>
+             </div>
+
+             <footer id="footer">
+                 <div id="footer_div">
+                     <table id="table_id">
+                        <tr>
+                            <td> <img src="img/roblox.jpg" width="80px" id="img_logo"> </td>
+                            <td> <img src="img/images.jpg" width="80px" id="img_logo"> </td>
+                            <td> <img src="img/images(1).jpg" width="80px" id="img_logo"> </td>
+                            <td> <img src="img/images(2).jpg" width="80px" id="img_logo"> </td>
+                        </tr>
+                        <tr>
+                            <td id="handle_id">@Davetadax</td>
+                            <td id="handle_id">@davetadax</td>
+                            <td id="handle_id">@Davetadax</td>
+                            <td id="handle_id">@Davetadax</td>
+                        </tr>
+                     </table>
+
+                 </div>
+
+
+             </footer>
+
+             <div>
+            <p id="copyright"> &copy; 2026 David Oretade</p>
         </div>
+
+
+             <script>
+                function myFunction() {
+                    var x = document.getElementById("myLinks");
+                    if (x.style.display === "block") {
+                        x.style.display = "none";
+                    } else {
+                      x.style.display = "block";
+                    }
+                }
+             </script>
+        
+        
         
     </body>
 </html>
